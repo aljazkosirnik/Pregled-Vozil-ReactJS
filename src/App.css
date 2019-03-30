@@ -1,0 +1,285 @@
+/* Root and body */
+body {
+  font-family: "Saira", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f5f8ff;
+}
+
+/* Variables */
+:root {
+  --main-color: #a1b4c0;
+  --background: #f5f8ff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-container {
+  height: 100%;
+  padding-bottom: 12vh;
+}
+
+.btn {
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  background: #fff;
+  color: black;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.btn-dark {
+  background: black;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background: black;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.btn-danger {
+  background: red;
+  color: #fff;
+  padding: 0.5rem 0.7rem;
+}
+
+.btn-danger:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.btn-light {
+  margin: 2rem 0 1rem;
+  padding: 0.3rem 10rem;
+  background: var(--main-color);
+  color: #fff;
+}
+
+.btn-light:hover {
+  color: rgba(255, 255, 255, 0.596);
+}
+
+img {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icons,
+a {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 0.5rem;
+  transition: color 0.5s linear;
+}
+
+.icons:hover,
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.chevron-right {
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+
+.fa-arrow-circle-left:hover {
+  color: black;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background: var(--main-color);
+}
+
+.navbar ul {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* Dashboard */
+.dashboard {
+  width: 65%;
+  text-align: center;
+}
+
+.vehicles-add-button {
+  width: 50%;
+  text-align: center;
+  margin: 2rem auto 0;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.table-row {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.table-info {
+  text-decoration: underline;
+  color: var(--main-color);
+  padding-top: 0.5rem;
+}
+
+.table-button {
+  color: var(--main-color);
+  font-size: 2rem;
+  transition: color 0.5s normal;
+}
+
+.table-button:hover {
+  color: #c1d8e6;
+}
+
+/* Add Vehicle */
+.add-row {
+  margin-top: 0.5rem;
+  width: 50%;
+}
+
+.back-link {
+  margin-bottom: 1rem;
+}
+
+.back-link a {
+  color: black;
+}
+
+.back-link a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+  background: var(--main-color);
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+}
+
+.card-header {
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: grid;
+}
+
+.form-group input {
+  padding: 0.3rem;
+  border-radius: 5px;
+  font-family: "Saira", sans-serif;
+}
+
+.add-vehicle-button {
+  width: 50%;
+  background: #e3e6ec;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+  font-size: 1rem;
+}
+
+.add-vehicle-button:hover {
+  cursor: pointer;
+  background: #d3d6db;
+}
+
+/* Vehicle details */
+.top-buttons {
+  display: inline-flex;
+  margin: 2rem 1rem;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.input-group .form-control {
+  width: 50%;
+  padding: 0.3rem;
+  border-radius: 5px;
+  font-family: "Saira", sans-serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Edit vehicle */
+.edit-row {
+  margin-top: 0.5rem;
+  width: 50%;
+}
+
+/* Login - Register */
+.login-register-row {
+  width: 40%;
+  margin: 5rem auto;
+}
+
+.login-register-button {
+  margin-top: 2rem;
+}
+
+.login-register-a {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: var(--main-color);
+}
+
+footer h6 {
+  margin: 1rem 0 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
